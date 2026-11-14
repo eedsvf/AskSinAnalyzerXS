@@ -39,7 +39,8 @@
       "target": [
         "tar.gz",
         "dmg"
-      ]
+      ],
+      "identity": "-"
     },
     "linux": {
       "category": "Utility",
