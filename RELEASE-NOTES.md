@@ -14,7 +14,17 @@ First Apple Silicon release of AskSinAnalyzerXS for macOS.
 3. Drag `AskSinAnalyzerXS.app` into the Applications folder.
 4. Launch the application.
 
-**Note:** This application is currently not signed or notarized by Apple. macOS may require allowing the application under System Settings → Privacy & Security.
+**macOS Security Notice:** This application is ad-hoc signed but not notarized by Apple. macOS Gatekeeper may prevent it from opening.
+
+If macOS blocks the application, first try **System Settings → Privacy & Security → Open Anyway**.
+
+If macOS reports that the application is damaged, and you trust the download from this GitHub release, you can remove its quarantine attribute using Terminal:
+
+```bash
+xattr -dr com.apple.quarantine /Applications/AskSinAnalyzerXS.app
+```
+
+This command affects only AskSinAnalyzerXS and does not disable Gatekeeper globally.
 
 ### Architecture
 Apple Silicon (ARM64) – M1, M2, M3, M4 and newer.
