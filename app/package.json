@@ -1,6 +1,6 @@
 {
   "name": "asksin-analyzer-xs",
-  "version": "0.0.0",
+  "version": "1.8.0",
   "description": "Analyzer for radio telegrams in a HomeMatic environment",
   "homepage": "https://github.com/psi-4ward/AskSinAnalyzerXS",
   "repository": "github:psi-4ward/AskSinAnalyzerXS",
@@ -16,7 +16,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "build": {
-    "productName": "AskSinAnalyerXS",
+    "productName": "AskSinAnalyzerXS",
     "appId": "com.AskSinAnalyzerXS",
     "artifactName": "${name}-${version}-${os}.${ext}",
     "publish": false,
